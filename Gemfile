@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0'
+gem 'rails', '4.0.1'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -12,8 +12,8 @@ gem 'bcrypt-ruby', :require => 'bcrypt'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', "  ~> 3.1.0"
-  gem 'coffee-rails', "~> 3.1.0"
+  gem 'sass-rails', "  ~> 4.0.1"
+  gem 'coffee-rails', "~> 4.0.1"
   gem 'uglifier'
 end
 
@@ -32,3 +32,7 @@ group :test do
   # Pretty printed test output
   gem 'turn', :require => false
 end
+
+gem 'rails_12factor', group: :production
+gem 'protected_attributes'
+ruby '2.0.0'
