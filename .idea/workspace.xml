@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="335b99d7-5718-4514-842b-fdf78f401563" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-    </list>
+    <list default="true" id="335b99d7-5718-4514-842b-fdf78f401563" name="Default" comment="" />
     <ignored path="basic-auth.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="335b99d7-5718-4514-842b-fdf78f401563" time="1384540016144" ignored="false" />

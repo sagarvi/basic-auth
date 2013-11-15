@@ -16,8 +16,6 @@
     <data-source source="LOCAL" name="Rails basic-auth: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="5b20e0b3-6f9c-4b5c-a015-78ba601eaa58">
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:basic-auth_production</jdbc-url>
-      <user-name>basic-auth</user-name>
-      <user-password>dfd9dfcbdfcddfcbdfd8df9bdf98df99</user-password>
       <libraries>
         <library>
           <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>
