@@ -12,7 +12,7 @@ gem 'bcrypt-ruby', :require => 'bcrypt'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  #gem 'sass-rails', "  ~> 4.0.1"
+  gem 'sass-rails', "  ~> 4.0.1"
   gem 'coffee-rails', "~> 4.0.1"
   gem 'uglifier'
 end
