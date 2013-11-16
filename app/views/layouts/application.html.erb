@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BasicAuth</title>
+  <title>CoRVance</title>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -14,11 +14,12 @@
 
 <p>
   <% if curr_user %>
-      Logged in as <%= curr_user.username %>.
+      Hi <%= curr_user.username %>.
       <%= link_to "Sign Out", signed_out_path %>
   <% else %>
       <%= link_to "Register Now", new_user_path %> or
       <%= link_to "Sign In", sign_in_path %>
+      <%= link_to "How it works", how_it_works_path %>
   <% end %>
 </p>
 

@@ -64,6 +64,7 @@ BasicAuth::Application.routes.draw do
   get "forgot_password" => "authentication#forgot_password"
   get "new_user" => "authentication#new_user"
   get "password_sent" => "authentication#password_sent"
+  get "how_it_works" => "home#how_it_works"
   post "sign_in" => "authentication#login"
   post "new_user" => "authentication#register"
   put "new_user" => "authentication#register"

@@ -35,4 +35,5 @@ end
 
 gem 'rails_12factor', group: :production
 gem 'protected_attributes'
+gem 'recaptcha', :require => "recaptcha/rails"
 ruby '2.0.0'
